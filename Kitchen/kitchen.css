@@ -1,0 +1,212 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header h2 {
+            margin: 0;
+            padding-left: 2%;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        header > div {
+            display: flex;
+            align-items: center;
+            padding: 10px 25px;
+            
+        }
+
+        header ul {
+            list-style: none;
+            padding: 0;
+            margin-left: 10%;
+            display: flex;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+
+        }
+        header span{
+            color: #A0522D;
+            font-weight: bold;
+        }
+
+        header ul li {
+            margin: 0 10px;
+        }
+
+        header button {
+            padding: 10px 20px;
+            margin-left: 20%;
+            font-family: sans-serif;
+            border: none;
+            border-radius: 15px;
+            background-color: #A0522D;
+            height: 40px;   
+            color: white;
+            cursor: pointer;
+            font-weight: bold;        
+            
+        }
+         ul a{
+            text-decoration: none;
+            color: slategrey;
+
+        }
+ 
+
+    .nav
+    {
+        background-image: url(image1.webp);
+        background-size: cover;
+        opacity: 80%;
+        z-index: 1;
+        height: 400px;
+        margin: 0;
+        padding: 0;
+    }
+    .navtab1
+    {
+        float: left;
+        padding: 6%;
+        width: 40%;
+        color: #E2DFD2;
+        font-size: 48px;
+        font-weight: bolder;
+    }
+    .navtab2
+    {
+        float: right;
+        margin: 2%;
+        width: 55%;
+    }
+    .nav p{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+  
+    .menus
+    {
+        text-align: center;
+        margin-left: 0%;
+        padding: 70px 0 45px 0;
+        justify-content: space-around;
+        font-size: 40px;
+        background-color: #f8f9fa;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(0, 0, 0, 0.897);
+    }
+
+    .f_item 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px;
+        text-align: center;
+        background-color: #f8f9fa;
+    }
+    .food 
+    {
+        flex: 0 0 30%; /* Flex basis at 30% to ensure 3 items per row */
+        margin: 0; /* Vertical margin for spacing between lines */
+        
+        
+    }  
+    .food img
+    {
+        width: 75%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .food p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: left;
+        font-weight: bold;
+        padding: 10px 0 5px 50px;
+        
+    }
+   
+    .img3{
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 5%;
+        background-color: #f8f9fa;
+    }
+    .menubutton
+    {
+        border: none; 
+        border-radius: 30px; 
+        background-color: white; 
+        color: rgb(238, 162, 69);
+        width: 50px; 
+        height: 30px;
+        margin-left: 20px;
+        font-weight: bold;
+
+
+    }
+
+footer
+{
+   padding: 0;
+    margin-top: 30px; 
+    height: 280px; 
+}
+footer .ftr 
+    {
+        height: 300px; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        color: #f8f9fa;
+        background-image: url("footer.jpg");
+        
+        background-size: cover;
+        opacity: 50%;
+        padding-top: 60px;
+        padding-left: 10%;
+        font-weight: bold;
+
+    }
+    .footer-section
+    {
+        flex: 0 0 30%; /* Flex basis at 30% to ensure 3 items per row */
+        margin-right: 10px; /* Vertical margin for spacing between lines */
+        box-sizing: border-box; 
+        padding: 15px;
+        z-index: 1;
+    }  
+
+
+ul li
+{
+    margin-top: 2%;
+    list-style-type: none;
+}
+.video-container {
+            display: flex;
+            gap: 10px; /* Adjust the gap between videos */
+            width: 80%;
+            max-width: 1200px;
+            margin-left: 10%;
+            margin-top: 2%;
+           
+        }
+     
+
+        .video-container1 {
+            display: flex;
+            gap: 10px; /* Adjust the gap between videos */
+            width: 80%;
+            max-width: 1200px;
+            margin-left: 10%;
+            margin-top: 2%;
+        }
+        
