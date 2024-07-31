@@ -1,0 +1,115 @@
+svg{
+    color: red;       
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+   
+    margin: 0;
+    padding: 0;
+}
+.open_time
+{
+    background-image: url("page4.avif");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+
+}
+.open_hour
+{
+    position: absolute;
+    height: 250px;
+    width: 30%;
+    
+    margin:65px 55px;
+    border-radius: 25px;
+
+}
+.ot{
+
+    padding: 15px;
+}
+.page1
+{
+    padding-left: 95px;
+}
+.container img{
+    border-radius: 15px;
+    margin-top: 25px;
+}
+.pagination-container {
+    margin-top: 20px;
+}
+.pagination .page-item .page-link {
+    margin: 40px 15px; /* This creates a total of 10px distance between numbers */
+    border-radius: 60%;
+    
+}
+.pagination a{
+    color: slategray;
+    
+}
+.reviews {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    text-align: left;
+    margin: 15px 0;
+  }
+  
+  .review-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .review-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  
+  .review-text {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .review-author {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 20px;
+  }
+  
+  .author-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rating {
+    color: #ffcc00;
+    font-size: 1.2em;
+  }
+  
